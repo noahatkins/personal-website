@@ -133,12 +133,12 @@ export const Home = () => {
                 </button>
               </div>
               <div className="p-4 font-mono">
-                <span className="text-[#c678dd]">console</span>
-                <span className="text-white">.</span>
-                <span className="text-[#61afef]">log</span>
-                <span className="text-white">(</span>
-                <input type="text" value={codeText} onChange={(e) => setCodeText(e.target.value)} className="bg-transparent text-[#98c379] focus:outline-none focus:ring-1 focus:ring-blue-500 max-w-[300px] overflow-hidden text-ellipsis" style={{width: `${codeText.length}ch`}} />
-                <span className="text-white">);</span>
+                <span className="text-[#c678dd] text-xs md:text-base">console</span>
+                <span className="text-white text-xs md:text-base">.</span>
+                <span className="text-[#61afef] text-xs md:text-base">log</span>
+                <span className="text-white text-xs md:text-base">(</span>
+                <input type="text" value={codeText} onChange={(e) => setCodeText(e.target.value)} className="bg-transparent text-[#98c379] focus:outline-none focus:ring-1 focus:ring-blue-500 max-w-[300px] overflow-hidden text-ellipsis text-xs md:text-base" style={{width: `${codeText.length}ch`}} />
+                <span className="text-white text-xs md:text-base">);</span>
               </div>
             </div>
           </motion.div>

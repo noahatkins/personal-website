@@ -65,10 +65,9 @@ export async function GET() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
-              padding: "100px 225px",
+              padding: "",
               backgroundColor: "#000000",
               height: "100%",
-              gap: "20px",
             }}
           >
             {/* Code Editor */}
@@ -81,6 +80,8 @@ export async function GET() {
                 fontFamily: "monospace",
                 display: "flex",
                 flexDirection: "column",
+                fontSize: "45px",
+                marginBottom: "60px",
               }}
             >
               <div style={{color: "#c678dd", display: "flex"}}>
@@ -93,7 +94,7 @@ export async function GET() {
             </div>
 
             {/* Name and Description */}
-            <div
+            {/* <div
               style={{
                 textAlign: "center",
                 color: "#fff",
@@ -109,7 +110,7 @@ export async function GET() {
                 <h2 style={{fontSize: "24px", fontWeight: "bold", margin: "0"}}>About</h2>
               </div>
               <p style={{fontSize: "16px", color: "rgb(156 163 175)", lineHeight: "1.5", textAlign: "left"}}>Technical problem solver with a passion for coding, sports, and exploring new places. Committed to creating meaningful impact through technology.</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
