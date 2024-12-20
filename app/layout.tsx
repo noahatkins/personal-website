@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Noah Atkins Portfolio",
     images: [
       {
-        url: "https://noahatkins.com/og.png", // You'll need to create this image
+        url: "https://noahatkins.com/api/og", // You'll need to create this image
         width: 1200,
         height: 630,
         alt: "Noah Atkins Portfolio",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Noah Atkins | Software Engineer",
     description: "Technical problem solver with a passion for coding, sports, and exploring new places.",
-    images: ["https://noahatkins.com/og.png"], // Same as OG image
+    images: ["https://noahatkins.com/api/og"], // Same as OG image
   },
   icons: {
     icon: [{url: "/favicon.ico"}, {url: "/favicon-16x16.png", sizes: "16x16", type: "image/png"}, {url: "/favicon-32x32.png", sizes: "32x32", type: "image/png"}],
