@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+import type {NextConfig} from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["kombo.noahatkins.com", "huehub.noahatkins.com", "todols.noahatkins.com"],
+  },
 };
 
 export default nextConfig;
