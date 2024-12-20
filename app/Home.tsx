@@ -48,13 +48,13 @@ const projects = [
     description: "A code-breaking game challenging players to crack the code using logic and deduction within 8 attempts.",
     image: "https://kombo.noahatkins.com/api/og",
   },
-  {
-    name: "Hue Hub",
-    url: "https://huehub.noahatkins.com",
-    technologies: "React, TypeScript",
-    description: "A color palette repository providing quick access and copying functionality for project color schemes.",
-    image: "https://huehub.noahatkins.com/api/og",
-  },
+  // {
+  //   name: "Hue Hub",
+  //   url: "https://huehub.noahatkins.com",
+  //   technologies: "React, TypeScript",
+  //   description: "A color palette repository providing quick access and copying functionality for project color schemes.",
+  //   image: "https://huehub.noahatkins.com/api/og",
+  // },
   {
     name: "TodoLS",
     url: "https://todols.noahatkins.com",
