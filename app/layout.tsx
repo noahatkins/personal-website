@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Noah Atkins | Software Engineer",
+    title: "Noah Atkins",
     description: "Technical problem solver with a passion for coding, sports, and exploring new places.",
     images: ["https://noahatkins.com/api/og"], // Same as OG image
   },
