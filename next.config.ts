@@ -2,7 +2,7 @@ import type {NextConfig} from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["kombo.noahatkins.com", "huehub.noahatkins.com", "todols.noahatkins.com", "noahatkins.com", "quizcache.noahatkins.com"],
+    domains: ["kombo.noahatkins.com", "huehub.noahatkins.com", "todols.noahatkins.com", "noahatkins.com", "quizcache.noahatkins.com", "palettes.noahatkins.com"],
   },
 };
 
