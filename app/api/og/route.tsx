@@ -92,25 +92,6 @@ export async function GET() {
                 <span style={{color: "#fff"}}>);</span>
               </div>
             </div>
-
-            {/* Name and Description */}
-            {/* <div
-              style={{
-                textAlign: "center",
-                color: "#fff",
-                display: "flex",
-                flexDirection: "column",
-                width: "80%",
-                background: "transparent",
-                marginBottom: "40px",
-                boxShadow: "0 0 20px rgba(255, 255, 255, 0.05)",
-              }}
-            >
-              <div style={{display: "flex", justifyContent: "space-between", alignItems: "center"}}>
-                <h2 style={{fontSize: "24px", fontWeight: "bold", margin: "0"}}>About</h2>
-              </div>
-              <p style={{fontSize: "16px", color: "rgb(156 163 175)", lineHeight: "1.5", textAlign: "left"}}>Technical problem solver with a passion for coding, sports, and exploring new places. Committed to creating meaningful impact through technology.</p>
-            </div> */}
           </div>
         </div>
       </div>
